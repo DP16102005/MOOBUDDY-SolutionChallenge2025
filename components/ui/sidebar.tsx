@@ -31,7 +31,7 @@ const Sidebar = React.forwardRef<HTMLDivElement, SidebarProps>(({ className, isO
     <>
       <div className={cn(sidebarVariants({ isOpen }), "w-64 p-4", className)} ref={ref} {...props}>
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-lg font-semibold">MooDating</h2>
+          <h2 className="text-lg font-semibold">MooBuddy</h2>
           <Button variant="ghost" size="icon" onClick={onClose} aria-label="Close sidebar">
             <X className="h-6 w-6" />
           </Button>
